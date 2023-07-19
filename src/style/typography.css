@@ -1,0 +1,40 @@
+.title1{
+    font-size: 2.625rem;
+    font-weight: bold;
+    font-family: var(--font-default);
+}
+.title2{
+    font-size: 2.25rem;
+    font-weight: bold;
+    font-family: var(--font-default);
+}
+.title3{
+    font-size: 1.375rem;
+    font-weight: bold;
+    font-family: var(--font-default);
+}
+
+label{
+    font-size: 0.875rem;
+    font-weight: 400;
+    font-family: var(--font-default);
+}
+.link{
+    font-size: 1rem;
+    font-weight: bold;
+
+    text-decoration: none;
+    font-family: var(--font-default);
+
+    color: var(--color-link);
+
+    cursor: pointer;
+}
+.link:hover{
+    color: var(--color-hover);
+}
+.paragraph{
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: var(--font-default);
+}

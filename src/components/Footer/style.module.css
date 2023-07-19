@@ -1,0 +1,18 @@
+.footer{
+    margin-top: 6.25rem;
+    border-top: 1px solid #FFF;
+    border-bottom: 1px solid #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 11.875rem;
+}
+.footer>div{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; 
+}
+.footer>div>div{
+    display: flex;
+    gap: 0.5rem;
+}

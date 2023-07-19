@@ -1,0 +1,18 @@
+.btn-default{
+    background-color: var(--color-primary);
+
+    font-size: 0.875rem;
+    font-family: var(--font-default);
+    font-weight: 600;
+
+    color: white;
+
+    border-radius: 0.75rem;
+    height: 2.5rem;
+    width: 7.875rem;
+
+    border: none;
+}
+.btn-default:hover{
+    background-color: var(--color-hover);
+}

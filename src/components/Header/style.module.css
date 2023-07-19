@@ -1,0 +1,8 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.myHooks{
+    display: flex;
+    gap: 4rem;
+}

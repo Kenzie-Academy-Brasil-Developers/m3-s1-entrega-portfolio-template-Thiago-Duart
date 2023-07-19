@@ -1,0 +1,13 @@
+.section{
+    margin-top:  6.25rem;
+    gap: 1rem;
+}
+.section>div{
+    margin-top: 2rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem ;
+    
+    padding: 0 1.625rem;
+}

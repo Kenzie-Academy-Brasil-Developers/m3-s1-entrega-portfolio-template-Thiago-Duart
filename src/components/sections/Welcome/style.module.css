@@ -1,0 +1,9 @@
+.section {
+    display: flex;
+    margin-top: 6.25rem;
+}
+.welcome__container{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}

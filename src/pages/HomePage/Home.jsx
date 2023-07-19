@@ -1,26 +1,20 @@
-import { HeaderC } from "../../components/header"
-import { Footer } from "../../components/Footer"
-import { Projets } from "../../components/Projects"
-import { ReadMe } from "../../components/About"
-import { Technology } from "../../components/Technology"
-import { Welcome } from "../../components/Welcome"
+import { DefaultTemplate } from "../../components/DefaultTemplate/index";
+import { Welcome } from "../../components/sections/Welcome/index";
+import { MyReadMe } from "../../components/sections/About/index";
+import { Technology } from "../../components/sections/Technology/index";
+import { Projets } from "../../components/sections/Projects/index";
 
 export const Home = () =>{
-
     return (
       <>
-      <header>
-        <HeaderC/>
-      </header>
-      <main>
+      <div className="container">
+      <DefaultTemplate>
         <Welcome/>
-        <ReadMe/>
+        <MyReadMe/>
         <Technology/>
         <Projets/>
-      </main>
-      <footer>
-        <Footer/>
-      </footer>
+      </DefaultTemplate>
+      </div>
       </>
     )
   }
