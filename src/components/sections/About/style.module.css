@@ -1,9 +1,17 @@
-.section{
+.section {
     display: flex;
     justify-content: space-between;
 
     margin-top: 6.25rem;
 }
-.section>div{
+
+.section>div {
     width: 600px;
+}
+
+@media (max-width:768px) {
+    .section {
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
 }

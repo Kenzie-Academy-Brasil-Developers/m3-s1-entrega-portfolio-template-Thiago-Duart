@@ -2,8 +2,20 @@
     display: flex;
     margin-top: 6.25rem;
 }
-.welcome__container{
+
+.welcome__container {
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
+}
+
+@media (max-width: 768px) {
+    .section {
+        flex-wrap: wrap;
+    }
+
+    .section img {
+        margin-top: 3rem;
+        width: 100%;
+    }
 }

@@ -1,8 +1,18 @@
-.header{
+.header {
     display: flex;
     justify-content: space-between;
 }
-.myHooks{
+
+.myHooks {
     display: flex;
     gap: 4rem;
+}
+
+@media (max-width: 768px) {
+    .header {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 2.25rem;
+    }
 }

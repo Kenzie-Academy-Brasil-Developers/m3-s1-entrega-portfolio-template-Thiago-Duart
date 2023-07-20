@@ -1,13 +1,20 @@
-.section{
-    margin-top:  6.25rem;
+.section {
+    margin-top: 6.25rem;
     gap: 1rem;
 }
-.section>div{
+
+.section>div {
     margin-top: 2rem;
 
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem ;
-    
-    padding: 0 1.625rem;
+    gap: 1rem;
+
+}
+
+@media (max-width:768px) {
+    .section>div {
+        padding: 0;
+        width: 100%;
+    }
 }

@@ -1,4 +1,4 @@
-.cardTecnology{
+.cardTecnology {
     width: 19.75rem;
     height: 5.25rem;
     flex-basis: calc(33.33% - 1.25rem);
@@ -8,21 +8,30 @@
 
 }
 
-.cardProjects{
+.cardProjects {
     width: 27rem;
     height: 11.4375rem;
 
     display: flex;
     flex-direction: column;
     gap: 1.625rem;
-    
+
     padding: 1.5rem;
 
-    border-radius:1.5rem ;
+    border-radius: 1.5rem;
     border: 1px solid rgba(255, 255, 255, 0.50);
 }
-.cardProjects>div{
+
+.cardProjects>div {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+@media (max-width: 430px) {
+    .cardTecnology {
+
+        width: 100%;
+        flex-basis: auto;
+    }
 }

@@ -1,14 +1,16 @@
-body{
+body {
     background-color: black;
     color: white;
 }
-:root{
-    --font-default:'IBM Plex Sans', sans-serif;
+
+:root {
+    --font-default: 'IBM Plex Sans', sans-serif;
     --color-primary: #6880FF;
     --color-link: #7B61FF;
     --color-hover: #7C91FF;
 }
-.container{
+
+.container {
     width: 100%;
     max-width: 980px;
     margin: 0 auto;

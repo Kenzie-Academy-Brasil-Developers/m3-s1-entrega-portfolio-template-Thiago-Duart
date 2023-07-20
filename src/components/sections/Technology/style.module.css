@@ -1,18 +1,21 @@
-.section{
-    margin-top:  6.25rem;
+.section {
+    margin-top: 6.25rem;
 }
-.section>div{
+
+.section>div {
     margin-top: 2rem;
 
-    display:  flex;
+    display: flex;
     flex-wrap: wrap;
     gap: 1rem;
 }
-.section img{
+
+.section img {
     width: 32px;
     height: 32.375px;
 }
-.section>div>div{
+
+.section>div>div {
     display: flex;
     align-items: center;
     gap: 2rem;
